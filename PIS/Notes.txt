@@ -1,0 +1,22 @@
+﻿http://www.marinetraffic.com/en/ais/index/ships/all
+
+
+http://pkapp.pka.gov.my/vessel/scn.php?scn=FNLY&Search2=Search
+
+http://pkapp.pka.gov.my/vessel/
+
+
+
+
+Tarriff
+type 
+0-normal
+1-DG
+
+days
+0-less or eq 3 days
+1- more than 3 days
+
+m3
+0-less or eq than 1M3
+1-more than 1 M3

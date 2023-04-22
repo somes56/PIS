@@ -895,6 +895,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Antrepo-Cargo-Boxes-Fork-2.ico" />
+    <Content Include="Database\001. Alter Table.sql" />
+    <Content Include="Database\002. spPIS_UpsertCFS.sql" />
     <Content Include="Notes.txt" />
   </ItemGroup>
   <ItemGroup>

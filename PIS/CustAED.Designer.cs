@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CustAED));
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txtState = new System.Windows.Forms.TextBox();
             this.cbState = new System.Windows.Forms.ComboBox();
             this.txtCountry = new System.Windows.Forms.TextBox();
             this.cbCountry = new System.Windows.Forms.ComboBox();
@@ -69,7 +70,6 @@
             this.btnEdit = new System.Windows.Forms.Button();
             this.cbTerm = new System.Windows.Forms.ComboBox();
             this.lblCust_ID = new System.Windows.Forms.Label();
-            this.txtState = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.pnlSave.SuspendLayout();
             this.pnlEdit.SuspendLayout();
@@ -127,6 +127,18 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(505, 455);
             this.panel1.TabIndex = 14;
+            // 
+            // txtState
+            // 
+            this.txtState.BackColor = System.Drawing.Color.Black;
+            this.txtState.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtState.ForeColor = System.Drawing.Color.Yellow;
+            this.txtState.Location = new System.Drawing.Point(83, 192);
+            this.txtState.MaxLength = 15;
+            this.txtState.Name = "txtState";
+            this.txtState.ReadOnly = true;
+            this.txtState.Size = new System.Drawing.Size(201, 23);
+            this.txtState.TabIndex = 37;
             // 
             // cbState
             // 
@@ -334,7 +346,7 @@
             this.txtEmail.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmail.ForeColor = System.Drawing.Color.Yellow;
             this.txtEmail.Location = new System.Drawing.Point(105, 308);
-            this.txtEmail.MaxLength = 20;
+            this.txtEmail.MaxLength = 100;
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.ReadOnly = true;
             this.txtEmail.Size = new System.Drawing.Size(179, 23);
@@ -594,18 +606,6 @@
             this.lblCust_ID.Size = new System.Drawing.Size(14, 15);
             this.lblCust_ID.TabIndex = 13;
             this.lblCust_ID.Text = "1";
-            // 
-            // txtState
-            // 
-            this.txtState.BackColor = System.Drawing.Color.Black;
-            this.txtState.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtState.ForeColor = System.Drawing.Color.Yellow;
-            this.txtState.Location = new System.Drawing.Point(83, 192);
-            this.txtState.MaxLength = 15;
-            this.txtState.Name = "txtState";
-            this.txtState.ReadOnly = true;
-            this.txtState.Size = new System.Drawing.Size(201, 23);
-            this.txtState.TabIndex = 37;
             // 
             // CustAED
             // 

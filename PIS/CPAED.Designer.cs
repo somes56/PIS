@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CPAED));
             this.lblID = new System.Windows.Forms.Label();
             this.lblCPID = new System.Windows.Forms.Label();
@@ -117,6 +117,8 @@
             this.lblDtPacked = new System.Windows.Forms.Label();
             this.dtPacked = new System.Windows.Forms.DateTimePicker();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.rbLedHQ = new System.Windows.Forms.RadioButton();
+            this.rbLedNB = new System.Windows.Forms.RadioButton();
             this.rbLedNP = new System.Windows.Forms.RadioButton();
             this.rbLedWP = new System.Windows.Forms.RadioButton();
             this.lblLedAcc = new System.Windows.Forms.Label();
@@ -182,7 +184,6 @@
             this.lblCust = new System.Windows.Forms.Label();
             this.lblPkg = new System.Windows.Forms.Label();
             this.SCNList = new System.Windows.Forms.ComboBox();
-            this.rbLedNB = new System.Windows.Forms.RadioButton();
             this.panel1.SuspendLayout();
             this.BoxCPDetails.SuspendLayout();
             this.CPHBL.SuspendLayout();
@@ -842,25 +843,25 @@
             this.dgvCP.AllowUserToDeleteRows = false;
             this.dgvCP.AllowUserToResizeColumns = false;
             this.dgvCP.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Yellow;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Maroon;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvCP.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Yellow;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Maroon;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvCP.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvCP.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvCP.BackgroundColor = System.Drawing.SystemColors.ControlText;
             this.dgvCP.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.NavajoWhite;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvCP.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.NavajoWhite;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvCP.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvCP.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCP.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dgvCP.GridColor = System.Drawing.Color.White;
@@ -870,14 +871,14 @@
             this.dgvCP.ReadOnly = true;
             this.dgvCP.RowHeadersWidth = 20;
             this.dgvCP.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Yellow;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Maroon;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvCP.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Yellow;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Maroon;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvCP.RowsDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvCP.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvCP.Size = new System.Drawing.Size(627, 175);
             this.dgvCP.TabIndex = 52;
@@ -1342,6 +1343,7 @@
             // 
             // panel5
             // 
+            this.panel5.Controls.Add(this.rbLedHQ);
             this.panel5.Controls.Add(this.rbLedNB);
             this.panel5.Controls.Add(this.rbLedNP);
             this.panel5.Controls.Add(this.rbLedWP);
@@ -1349,6 +1351,26 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(350, 31);
             this.panel5.TabIndex = 87;
+            // 
+            // rbLedHQ
+            // 
+            this.rbLedHQ.AutoSize = true;
+            this.rbLedHQ.Location = new System.Drawing.Point(258, 3);
+            this.rbLedHQ.Name = "rbLedHQ";
+            this.rbLedHQ.Size = new System.Drawing.Size(55, 17);
+            this.rbLedHQ.TabIndex = 6;
+            this.rbLedHQ.Text = "WHQ";
+            this.rbLedHQ.UseVisualStyleBackColor = true;
+            // 
+            // rbLedNB
+            // 
+            this.rbLedNB.AutoSize = true;
+            this.rbLedNB.Location = new System.Drawing.Point(184, 3);
+            this.rbLedNB.Name = "rbLedNB";
+            this.rbLedNB.Size = new System.Drawing.Size(62, 17);
+            this.rbLedNB.TabIndex = 5;
+            this.rbLedNB.Text = "D0419";
+            this.rbLedNB.UseVisualStyleBackColor = true;
             // 
             // rbLedNP
             // 
@@ -1916,7 +1938,7 @@
             this.txtBkRef.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBkRef.ForeColor = System.Drawing.Color.Yellow;
             this.txtBkRef.Location = new System.Drawing.Point(157, 279);
-            this.txtBkRef.MaxLength = 15;
+            this.txtBkRef.MaxLength = 1000;
             this.txtBkRef.Name = "txtBkRef";
             this.txtBkRef.ReadOnly = true;
             this.txtBkRef.Size = new System.Drawing.Size(350, 23);
@@ -2083,16 +2105,6 @@
             this.SCNList.TabIndex = 103;
             this.SCNList.Visible = false;
             this.SCNList.SelectedIndexChanged += new System.EventHandler(this.SCNList_SelectedIndexChanged);
-            // 
-            // rbLedNB
-            // 
-            this.rbLedNB.AutoSize = true;
-            this.rbLedNB.Location = new System.Drawing.Point(184, 3);
-            this.rbLedNB.Name = "rbLedNB";
-            this.rbLedNB.Size = new System.Drawing.Size(62, 17);
-            this.rbLedNB.TabIndex = 5;
-            this.rbLedNB.Text = "D0419";
-            this.rbLedNB.UseVisualStyleBackColor = true;
             // 
             // CPAED
             // 
@@ -2291,5 +2303,6 @@
         private System.Windows.Forms.RadioButton rbShipTypeFCL;
         private System.Windows.Forms.RadioButton rbShipTypeCoLoad;
         private System.Windows.Forms.RadioButton rbLedNB;
+        private System.Windows.Forms.RadioButton rbLedHQ;
     }
 }

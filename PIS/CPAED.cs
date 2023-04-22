@@ -350,6 +350,10 @@ namespace PIS
                 {
                     rbLedNB.Checked = true;
                 }
+                else if (Convert.ToInt32(CP.Rows[0]["ledger_acc"]) == 3)
+                {
+                    rbLedHQ.Checked = true;
+                }
                 else
                 {
                     rbLedNP.Checked = true;
@@ -714,7 +718,7 @@ namespace PIS
             Gang = rbGangYes.Checked ? 1 : 0;
             SealNo = txtSealNo.Text.ToString().Trim();
             K8No = txtK8No.Text.ToString().Trim();
-            LedgerAcc = rbLedNP.Checked ? 0 : rbLedWP.Checked ? 1 : 2;
+            LedgerAcc = rbLedNP.Checked ? 0 : rbLedWP.Checked ? 1 : rbLedNB.Checked ? 2 : 3;
             PackDate = Convert.ToDateTime(dtPacked.Value.ToString("yyyy-MM-dd"));
             CargoPackedBy = txtCargoPkdBy.Text.ToString().Trim();
             TallyPackedBy = txtTallyPkdBy.Text.ToString().Trim();
